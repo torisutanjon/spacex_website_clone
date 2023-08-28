@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans:wght@300&family=Paprika&family=Roboto:wght@100;300;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.transition-css {
+  transition: 0.5s;
+}
+
+.showTopNav {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-in-out;
+}
+
+.upcoming-section {
+  background: url("./assets/crew-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recent1-section {
+  background: url("./assets/falcon9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recent2-section {
+  background: url("./assets/falcon9-launch.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.starship-section {
+  background: url("./assets/starship.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .upcoming-section {
+    background: url("./assets/crew-7-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .recent1-section {
+    background: url("./assets/falcon9-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .recent2-section {
+    background: url("./assets/falcon9-launch-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .starship-section {
+    background: url("./assets/starship-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* fade styling */
+
+.reveal {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* animations */
