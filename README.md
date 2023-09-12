@@ -1,6 +1,6 @@
-## Starlink Website Home Page Clone (Frontend)
+## SpaceX Website Home Page Clone (Frontend)
 
-This is my attemp on cloning the Home Page's frontend side of the Starlink website.
+This is my attemp on cloning the Home Page's frontend side of the SpaceX website.
 
 ### Created Using:
 
