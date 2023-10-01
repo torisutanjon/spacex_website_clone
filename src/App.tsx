@@ -126,7 +126,7 @@ function App() {
       {/* footer */}
       <footer className="h-44 w-full bg-black xl:h-20 xl:flex xl:flex-row xl:items-center xl:justify-center">
         <div className="h-20 w-full flex items-center justify-center xl:h-10 xl:w-28">
-          <p className="text-.65 text-white">SPACEX &copy; 2023</p>
+          <p className="text-.65 text-white">Tristan John P. Girao &copy; 2023</p>
         </div>
         <div className="h-24 w-full flex flex-col items-center justify-center xl:h-10 xl:flex-row xl:w-5/12">
           <div className="h-[45%] w-[80%] flex flex-row items-start justify-between xl:h-full xl:w-96 xl:items-center xl:mr-4">
